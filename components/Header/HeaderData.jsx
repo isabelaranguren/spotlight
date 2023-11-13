@@ -1,7 +1,7 @@
 export const headerData = {
   mainData: {
-    firstName: "Isabel",
-    lastName: "Aranguren",
+    firstName: "Hello",
+    lastName: "Hello",
     phone: "+(123) 456-7890",
     email: "isabelarangurenl01@gmail.com",
     author: "Isabel Aranguren",

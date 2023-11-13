@@ -1,5 +1,5 @@
 import Head from 'next/head'; 
-import { Header, Navigation } from '@/components/'
+import { Header, Navigation, About } from '@/components/'
 
 // import { mainData } from '@/lib/data' ;
 
@@ -15,16 +15,21 @@ export default function Home() {
       <div className='container'>
         {/*header*/}
         <Header />
-
-        <div>
-                  <Navigation />
-
+        {/* Main row */}
+        <main>
+          <div className="row g-4 g-lg-5">
+             <div className="col-12 col-lg-4 col-xl-3">
+              <Navigation />
+            </div>
+            <div className="col-12 col-lg-8 col-xl-9">
+                 <div className="sections-wrapper">
+                            {/* About Section */}
+                            <About />
+            </div>
+          </div>
         </div>
-        
-
-        <div className="sections-wrapper">
-
-        </div>
+        </main>
+       
 
       </div>
     </>
